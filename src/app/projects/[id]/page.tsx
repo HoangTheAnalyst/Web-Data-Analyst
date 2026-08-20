@@ -14,13 +14,12 @@ export async function generateStaticParams() {
 }
 
 interface PageProps {
-  params: Promise<{ id: string }> | { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default async function ProjectDetailPage({ params }: PageProps) {
-  const resolvedParams = await Promise.resolve(params);
-  const currentId = String(resolvedParams?.id);
-  const project = projectsList.find((p) => String(p.id) === currentId);
+  const { id } = await params;
+  const project = projectsList.find((p) => String(p.id) === id);
 
   if (!project) {
     notFound();
@@ -52,7 +51,6 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   }
 
   return (
-    // Nền trang đổi sang tone vàng nhạt đồng bộ với section Projects ở trang chủ
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-amber-50/30 to-amber-100/40 text-gray-800 flex flex-col">
       {/* Top Header Navigation */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
