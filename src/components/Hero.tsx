@@ -23,7 +23,7 @@ export default function Hero() {
             <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-900 tracking-wide mb-2">
               Hoang The Analyst
             </h1>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-amber-700 leading-tight">
               {personalInfo.role}
             </h2>
           </div>
