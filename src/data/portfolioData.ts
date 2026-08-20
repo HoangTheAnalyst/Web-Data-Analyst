@@ -62,7 +62,7 @@ export const educationList: EducationItem[] = [
 ];
 
 export const experienceBulletPoints: string[] = [
-  'Architected and deployed production-grade transformation pipelines using dbt, Snowflake, and Azure for analytics workflows.',
+  'Architected and deployed production-grade transformation pipelines using dbt, Snowflake, and Fabric for analytics workflows.',
   'Processed, validated, and normalized large datasets for economics research and predictive modeling tasks.',
   'Conducted surveys, demand forecasting, and inventory performance analysis for seasonal retail projects in my small business in early 2025.',
   'Performed competitor footfall scouting at local eateries and delivered executive insight reports directly to business owners.',
@@ -85,7 +85,7 @@ export const skillsList: SkillCardItem[] = [
     iconClass: 'fas fa-cubes',
     title: 'Analytics Engineering & Cloud',
     description:
-      'Build scalable data transformation pipelines with dbt, Snowflake, and Microsoft Azure, integrating LLM-assisted workflows.',
+      'Build scalable data transformation pipelines with dbt, Snowflake, and Fabric, integrating LLM-assisted workflows.',
   },
   {
     iconClass: 'fas fa-chart-line',
