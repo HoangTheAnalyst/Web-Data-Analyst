@@ -8,12 +8,12 @@ export default function Projects() {
       id="projects"
       className="py-14 md:py-24 bg-gradient-to-br from-gray-50 via-amber-50/30 to-amber-100/40"
     >
-      <div className="w-full px-4 sm:px-6 md:w-[80%] max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center  text-gray-900 mb-9 md:mb-14">
+      <div className="w-[80%] mx-auto">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 mb-9 md:mb-14">
           Featured Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-7 md:gap-x-[4%]">
           {projectsList.map((project) => {
             const isAE = project.role === 'Analytics Engineer';
 
@@ -50,7 +50,7 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    sizes="(max-width: 768px) 100vw, 40vw"
+                    sizes="(max-width: 768px) 80vw, 40vw"
                     className="object-cover group-hover/img:scale-105 transition-transform duration-500"
                     unoptimized
                   />
