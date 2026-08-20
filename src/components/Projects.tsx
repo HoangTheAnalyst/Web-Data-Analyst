@@ -57,7 +57,7 @@ export default function Projects() {
                 </Link>
 
                 {/* 2. CARD CONTENT AREA */}
-                <div className="p-4.5 md:p-6 flex flex-col flex-grow">
+                <div className="p-6 md:p-6 flex flex-col flex-grow">
                   <h3 className="text-base sm:text-lg md:text-[17px] font-bold text-gray-800 mb-2.5 leading-snug min-h-[2.8rem] line-clamp-2">
                     {project.title}
                   </h3>
