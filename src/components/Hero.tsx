@@ -33,6 +33,23 @@ export default function Hero() {
             {personalInfo.description}
           </p>
 
+          {/* Key Metrics / Stats Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            {heroStats.map((stat, idx) => (
+              <div
+                key={idx}
+                className="bg-white/80 backdrop-blur-sm p-3 rounded-xl border border-amber-200/50 shadow-sm text-center"
+              >
+                <div className="text-xl md:text-2xl font-extrabold text-amber-600">
+                  {stat.value}
+                </div>
+                <div className="text-[11px] md:text-xs text-gray-600 font-medium">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
+
           {/* Call-to-Action Buttons */}
           <div className="flex flex-wrap gap-4 pt-2">
             <Link
@@ -48,23 +65,6 @@ export default function Hero() {
             >
               Contact Me
             </Link>
-          </div>
-
-          {/* Key Metrics / Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-amber-200/60">
-            {heroStats.map((stat, idx) => (
-              <div
-                key={idx}
-                className="bg-white/80 backdrop-blur-sm p-3 rounded-xl border border-amber-200/50 shadow-sm text-center"
-              >
-                <div className="text-xl md:text-2xl font-extrabold text-amber-600">
-                  {stat.value}
-                </div>
-                <div className="text-[11px] md:text-xs text-gray-600 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
 
