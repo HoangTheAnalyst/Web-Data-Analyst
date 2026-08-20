@@ -56,7 +56,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
         <div className="w-full px-4 sm:px-6 md:w-[70%] max-w-5xl mx-auto h-14 flex items-center justify-between">
           <Link
-            href="/#projects"
+            href="/"
             className="flex items-center gap-2 text-xs md:text-sm font-semibold text-gray-600 hover:text-amber-600 transition-colors"
           >
             <i className="fas fa-arrow-left text-[10px] md:text-xs" /> Back to Projects
