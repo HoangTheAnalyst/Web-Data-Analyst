@@ -34,7 +34,7 @@
 ![Real-time Dashboard](../Images/Real-time%20Dashboard%20Screenshot.png)
 *Figure 3: Real-Time Operational Dashboard visualizing live message rates, error spikes, and active session metrics.*
 
-> 💡 **KQL Queries**: For detailed KQL logic supporting the Real-Time Dashboard, please refer to the [KQL Queries Directory](https://github.com/hai262626/Project-8-Using-Fabric-to-Ingest-Transform-Analyze-AI-Platform-Data-in-a-Edtech-Company/blob/master/kql_code_for_fabric/kql_for_event_dashboard.sql).
+> 💡 **KQL Queries**: For detailed KQL logic supporting the Real-Time Dashboard, please refer to the [KQL Queries Directory](https://github.com/HoangTheAnalyst/Project-8-Using-Fabric-to-Ingest-Transform-Analyze-AI-Platform-Data-in-a-Edtech-Company/blob/master/kql_code_for_fabric/kql_for_event_dashboard.sql).
 
 ---
 
@@ -56,7 +56,7 @@
 ![Historical Report](../Images/Dashboard%20Screenshot.png)
 *Figure 6: Executive Power BI Report tracking long-term user retention, token API expenditure, and subscription analytics.*
 
-> 💡 **SQL Scripts**: For full DDLs, CTAS scripts, and Stored Procedures driving the Star Schema, please visit the [SQL Code Directory](https://github.com/hai262626/Project-8-Using-Fabric-to-Ingest-Transform-Analyze-AI-Platform-Data-in-a-Edtech-Company/blob/master/sql_code_for_fabric).
+> 💡 **SQL Scripts**: For full DDLs, CTAS scripts, and Stored Procedures driving the Star Schema, please visit the [SQL Code Directory](https://github.com/HoangTheAnalyst/Project-8-Using-Fabric-to-Ingest-Transform-Analyze-AI-Platform-Data-in-a-Edtech-Company/blob/master/sql_code_for_fabric).
 
 ---
 
