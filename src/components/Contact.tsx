@@ -25,12 +25,13 @@ export default function Contact() {
       icon: 'fab fa-linkedin',
       title: 'LinkedIn',
       value: personalInfo.linkedin,
-      href: `mailto:${personalInfo.linkedin}`,
+      href: personalInfo.linkedin,
+      external: true,
     },
   ];
 
   return (
-    <section id="contact" className="py-24 bg-sky-50/50">
+    <section id="contact" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-6">
           Contact Me
