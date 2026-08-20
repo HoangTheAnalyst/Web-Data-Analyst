@@ -20,12 +20,12 @@ export default function Hero() {
 
           {/* Main Headings */}
           <div>
-            <h2 className="text-amber-600 font-bold text-base md:text-lg tracking-wider uppercase mb-1">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-2">
+              Hoang The Analyst
+            </h1>
+            <h2 className="text-gray-900 font-bold text-base md:text-lg tracking-wider uppercase">
               {personalInfo.role}
             </h2>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight">
-              Hoang <span className="text-amber-500">The Analyst</span>
-            </h1>
           </div>
 
           {/* Value Proposition */}
