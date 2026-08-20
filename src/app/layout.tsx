@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Data Analyst Portfolio | Hoang The Analyst',
+  title: 'Analytics Engineer Portfolio | Hoang The Analyst',
   description:
     'Portfolio of Hoang The Analyst featuring 7 data projects across SQL, Python, Tableau, and Power BI.',
   icons: {
