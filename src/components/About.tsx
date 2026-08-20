@@ -10,7 +10,7 @@ export default function About() {
     <section id="about" className="py-16 md:py-20 bg-white">
       {/* Container with max width constraint */}
       <div className="w-full px-4 sm:px-6 md:w-[80%] max-w-5xl mx-auto space-y-10">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center gradient-title">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900">
           About Me
         </h2>
 

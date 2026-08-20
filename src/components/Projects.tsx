@@ -9,7 +9,7 @@ export default function Projects() {
       className="py-14 md:py-24 bg-gradient-to-br from-gray-50 via-amber-50/30 to-amber-100/40"
     >
       <div className="w-full px-4 sm:px-6 md:w-[80%] max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center gradient-title mb-9 md:mb-14">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center  text-gray-900 mb-9 md:mb-14">
           Featured Projects
         </h2>
 
